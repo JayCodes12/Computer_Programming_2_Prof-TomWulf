@@ -17,7 +17,7 @@ public class SafeInputObj {
         do {
             System.out.print(prompt + ": ");
             ret = pipe.nextLine();
-        } while (ret.length() == 0);
+        } while (ret.isEmpty());
         return ret;
     }
 
